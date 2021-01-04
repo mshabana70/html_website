@@ -1,4 +1,4 @@
-<!--    NOTES
+<!--    NOTES (lec 14-15)
     - HTML boiler plate
     - Most HTML files consist of a Head and a Body (<head>, <body>)
     - Meta elements give extra meta data or associate data to the html element
@@ -11,7 +11,24 @@
     - to italicize in HTML, use "<em>" rather than "<i>". "i" only styles the text, while "em" emphasizes the text.
         visually, the outcome is the same.
     - Similar relationship between "<bold>" and "<strong>"
-    - "<hr />" is used to for a Horizontal Rule
+    - "<hr />" is used to for a Horizontal Rule or line that stretches across the webpage
+-->
+
+<!--    NOTES (Lec 16-17)
+    - Creating lists in HTML
+    - "<ul>" is used for listing in HTML. It is an Unordered List.
+    - "<ol>" is used for listing in HTML. It is an Ordered List.
+    - "<ol>" can be customized using the "type" attribute, or even the "start" attribute
+    - "<img>" is an element used to import images to your webpage. "alt" attribute is used to substitute text when 
+    image does not load.
+-->
+
+<!--    NOTES (Lec 18)
+    - Hyperlinks are an element that allow users to be redirected to another webpage
+    - "<a>" is the HTML anchor element which (when used with "href" attribute) creates a hyperlink to web pages, files, email addresses, locations, etc.
+    - "href" is assigned the destination URL
+    - "<a>" anchor element requires a close tag.
+    - In this exercise, I use href to redirect to a seperate HTML file for my hobbies list and contact information
 -->
 
 <!DOCTYPE html>
@@ -21,10 +38,19 @@
     <title>Mahmoud's Personal Website</title>
   </head>
   <body>
+    <img src="circle-cropped.png" alt="Mahmoud's Profile Picture" />
     <h1>Mahmoud Shabana</h1>
     <!-- <i>Graduate Student-Athlete at Monmouth University</i> -->
     <p>
-      <em>Graduate Student-Athlete at <strong>Monmouth University</strong></em>
+      <em>
+        Graduate Student-Athlete at
+        <strong>
+          <a
+            href="https://monmouthhawks.com/sports/football/roster/mahmoud-shabana/10362"
+            >Monmouth University</a
+          >
+        </strong>
+      </em>
     </p>
     <p>
       I am a SE Graduate that also plays Division 1 football at Monmouth. I love
@@ -34,9 +60,29 @@
     </p>
     <hr />
     <h3>Education:</h3>
-    <p>
-      <strong>Monmouth University</strong> B.S in
-      <em>Software Engineering</em> From 2016 - 2020
-    </p>
+    <ul>
+      <li>
+        <strong>
+          <a href="https://www.monmouth.edu/"> Monmouth University </a>
+        </strong>
+      </li>
+      <ul>
+        <li>B.S in <em>Software Engineering</em> From 2016 - 2020</li>
+        <li>
+          M.S in <em>Software Engineering - Advanced Thesis Track</em> From 2020
+          - 2021
+        </li>
+      </ul>
+      <li>
+        <strong>
+          <a href="https://www.bths.edu/"> Brooklyn Technical High School </a>
+        </strong>
+      </li>
+      <ul>
+        <li>Focus in <em>Civil Engineering</em> From 2012 - 2016</li>
+      </ul>
+    </ul>
+    <a href="hobbies.html">My Hobbies</a>
+    <a href="contact.html">Contact Me</a>
   </body>
 </html>
