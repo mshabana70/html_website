@@ -53,3 +53,27 @@
     show your level of expertise.
     - used a table nested in another table!!!
 -->
+
+<!--   NOTES (Lect 25, HTML Forms)
+    - The HTML <form> element represents a document section containing interactive controls for submitting information.
+    - the form element is contingent on javascript code to access the full functionality of the element.
+    - the "action" attribute of the form element is used to decide where to redirect the user
+    once the form is submitted via a input element with type="submit"
+    - the "mailto:example@mail.com" action will send an email to the specified email after the colons
+    - The "name" attribute applies a variable name to the value the input is retrieving
+    - You can create the submit button with the input attribute by using type="submit"
+    - "Password" input type blocks out the user inputs by default
+    - check out MDN docs to learn more about forms and inputs
+    - <!--
+       input type for a color selector button
+      <input type="color" name="" />
+       input type for a checkbox
+      <input type="checkbox" name="" />
+      -->
+-->
+
+<!--   NOTES (lect 26, Creating Contact Me form)
+    - "<textarea>" is similar to a text input, except that you can configure the number of rows and columns
+    within the text box
+
+-->

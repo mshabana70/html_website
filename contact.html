@@ -7,12 +7,26 @@
   </head>
   <body>
     <h3>My Contact Details:</h3>
-    <ul>
-      <li><strong>Email:</strong> mshabana5656@gmail.com</li>
-      <li>
-        <strong>LinkedIn</strong>
-        <a href="https://www.linkedin.com/in/mshabana70/"> mshabana70 </a>
-      </li>
-    </ul>
+
+    <p><strong>Email:</strong> mshabana5656@gmail.com</p>
+    <p>
+      <strong>LinkedIn</strong>
+      <a href="https://www.linkedin.com/in/mshabana70/"> mshabana70 </a>
+    </p>
+    <hr />
+    <form
+      action="mailto:mshabana5656@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <label>Your Name:</label>
+      <input type="text" name="yourName" value="" />
+      <br />
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value="" /><br />
+      <label>Your Message:</label><br />
+      <textarea name="yourMessage" cols="30" rows="10"></textarea><br />
+      <input type="submit" name="" />
+    </form>
   </body>
 </html>
