@@ -11,3 +11,8 @@ hr {
 img {
   height: 200px;
 }
+
+h1,
+h3 {
+  color: #654062;
+}
