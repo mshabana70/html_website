@@ -182,4 +182,12 @@ NOTES (Sec 4, Lec 35)
 - Issue Found: when linking the external css file, the "href" used began with a "/". This means that the root files of a non-hosted are being targeted. This will result in a null target and the browser will use the default css styling. (ERR_FILE_NOT_FOUND)
 -     DEBUG PROBLEM 2
 - Issue Found: Although everything was correct syntax wise, there was a style attribute used as injected CSS code. (<body style="background-color: white;">)
+- inline css take top priority, then internal css (<styles>), and then external css files
 
+NOTES (Sec 4, Lect 36, "CSS SYNTAX")
+
+- The Grammer of the CSS Language
+- selector{property:value;}
+- selector: Who? , whos style do you want to change?
+- property: What?, what about the selector do you want to change?
+- value: How?, how do you want to change the property of the selector?
