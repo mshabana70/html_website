@@ -1,0 +1,39 @@
+/***************************TAG SELECTORS*******************************/
+body {
+  background-color: #c5a880;
+}
+
+h1 {
+  font-size: 50px;
+  color: #e6e6e6;
+}
+
+p {
+  color: #532e1c;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+img:hover {
+  background-color: white;
+  opacity: 75%;
+}
+
+/***************************CLASS SELECTORS*******************************/
+
+.cookies {
+  background-color: #532e1c;
+}
+
+.tomato {
+  background-color: black;
+}
+
+/***************************ID SELECTORS*******************************/
+
+#heading {
+  color: aqua;
+}

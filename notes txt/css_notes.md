@@ -191,3 +191,20 @@ NOTES (Sec 4, Lect 36, "CSS SYNTAX")
 - selector: Who? , whos style do you want to change?
 - property: What?, what about the selector do you want to change?
 - value: How?, how do you want to change the property of the selector?
+- Ex: I Love Bacon
+- keep css properties in alphabetical order for help in future debugging
+- [CSS keyword reference index](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- to specify which selector you want to use, you need to use class selectors (class attribute in html is required)
+
+NOTES (Sec 4, Lect 37, "CLASSES VS ID's")
+
+- Id selectors act very similar to class selectors. The difference is in the syntax of the CSS bracket (#).
+- Since the selector is more specific, id selectors hold priority over tag selectors.
+- The key difference between id's and classes is that id selectors are unique and can only be used once per id name. Classes, on the other hand, can be used multiple times with the same class name.
+- You can also add multiple classes to the same element; (<img class="tomato circular">)
+- This cannot be replicated with an id selectors.
+- Id selectors are used more sparingly, classes are for broader use.
+- Psuedo classes are CSS classes that begin with a colon; :psuedo.
+- These classes are used to style specified elements based on their state.
+- For example, hovering over an HTML element can trigger a CSS styling such as shadow or opacity of an element.
+- Common psuedo class: [:hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
